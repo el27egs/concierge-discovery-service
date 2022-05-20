@@ -1,0 +1,5 @@
+# Spring configuration
+spring:
+  # Service or application name
+  application:
+    name: concierge-discovery-service

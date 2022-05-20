@@ -1,0 +1,15 @@
+# Server settings
+server:
+  port: 8018
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+logging:
+  level:
+    com:
+      netflix:
+        eurka: OFF
+        discovery: OFF
